@@ -57,7 +57,7 @@ download_needed() {
 	printf '%b\n' "${BLUE}Downloading revanced-cli, revanced-patches and revanced-integrations${NC}"
 	for i in \
 		https://github.com/revanced/revanced-cli/releases/download/v$revanced_cli_version/$cli_filename \
-		https://github.com/revanced/revanced-patches/releases/download/v$revanced_patches_version/$patches_filename \
+		https://github.com/farhanahmed95/revanced-patches/releases/download/v$revanced_patches_version/$patches_filename \
 		https://github.com/revanced/revanced-integrations/releases/download/v$revanced_integrations_version/$integrations_filename \
 		$youtube_apk
 	do
